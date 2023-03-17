@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    padding: 40px;
+}
+#cont1{
+    color: white;
+    padding-left: 100px;
+    margin-left:50px;
+    height: 900px;
+    width: 1350px;
+    background-color: red;
+    font-size: 30px;
+}
+h1{
+
+}

@@ -1,0 +1,57 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 10%fr;
+    grid-template-areas: 'nav'
+                         'nav2';
+}
+#one{
+    grid-area: nav;
+    background-color: aqua;
+}
+#two{
+    grid-area: nav2;
+    background-color: chartreuse;
+}
+#one ul{
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
+#one ul li{
+    padding: 20px;
+}
+#one ul li a{
+    text-decoration: none;
+    color: black;
+}
+div i{
+    padding: 20px;
+}
+div img{
+    height: 350px;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -370px;
+    border-radius: 50%;
+    
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'about servic discription';
+}
+#cont1{
+    grid-area: about;
+    background-color: crimson;
+}
+#cont2{
+    grid-area: servic;
+    background-color: chocolate;
+}
+#cont3{
+    grid-area: discription;
+    background-color: darkcyan;
+}

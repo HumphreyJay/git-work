@@ -1,0 +1,15 @@
+body{
+    padding: 40px;
+}
+#cont1{
+    color: white;
+    padding-left: 100px;
+    margin-left:50px;
+    height: 2700px;
+    width: 1350px;
+    background-color: red;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
